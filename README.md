@@ -1,4 +1,4 @@
-# Mattress Shop Page
+# Mattress App
 
 Application created in React.
 To start and run the app you'll need to have Node.js installed in your computer.
