@@ -1,0 +1,45 @@
+@import '../../variables';
+
+nav {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 3rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid lightgrey;
+
+    .saatvaLogo {
+        padding-left: 1rem;
+        width: 65%;
+        fill: $logo-color;
+        stroke: none;
+    }
+
+    .cart {
+        position: relative;
+        width: 2.5rem;
+        text-align: center;
+
+        &-number {
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -8px;
+            right: -3px;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background-color: $logo-color;
+            color: #fff;
+            font-size: 13px;
+        }
+
+        &-icon {
+            font-size: 2rem;
+            cursor: pointer;
+        }
+    }
+}
